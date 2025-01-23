@@ -1,0 +1,7 @@
+version: "2.5.43"
+description: Fork of TFT_eSPI with added ESP-IDF (idf_component.yaml) component support.
+url: https://github.com/Johboh/EspNowNetworkHost
+dependencies:
+  idf: ">=5.1"
+  espressif/arduino-esp32:
+    version: ">=3.1.1"
